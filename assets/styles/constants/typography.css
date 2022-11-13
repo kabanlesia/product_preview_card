@@ -1,0 +1,29 @@
+:root {
+  --font-family-primary: "Montserrat", sans-serif;
+  --font-family-secondary: "Fraunces", sans-serif;
+
+  --font-size-sm: 0.75rem;
+  --font-size-md: 0.875rem;
+  --font-size-l: 1rem;
+  --font-size-xl: 2rem;
+}
+
+.text-body,
+p {
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  line-height: 1.8;
+  font-family: var(--font-family-primary);
+}
+.text-title,
+h1 {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  line-height: 1;
+  font-family: var(--font-family-secondary);
+}
+.text-accent {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-family-primary);
+}

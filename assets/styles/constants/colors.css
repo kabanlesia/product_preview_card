@@ -1,0 +1,19 @@
+:root {
+  --color-green-400: hsl(158, 36%, 37%);
+  --color-green-500: hsl(157, 43%, 18%);
+  --color-grey-400: hsl(30, 38%, 92%);
+  --color-grey-500: hsl(228, 12%, 48%);
+  --color-grey-600: hsl(212, 21%, 14%);
+  --color-white-400: hsl(0, 0%, 100%);
+
+  --color-text-body: var(--color-grey-500);
+  --color-text-heading: var(--color-grey-600);
+  --color-text-accent: var(--color-green-400);
+
+  --color-background: var(--color-grey-400);
+  --color-card-background: var(--color-white-400);
+
+  --color-button-text: var(--color-white-400);
+  --color-button-background-default: var(--color-green-400);
+  --color-button-background-hover: var(--color-green-500);
+
